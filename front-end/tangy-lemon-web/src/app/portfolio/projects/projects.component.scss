@@ -1,0 +1,19 @@
+.projectItem {
+  height: 400px;
+  // padding: 10px;
+  // background-color: #85e2ff;
+}
+
+.card {
+  border: none;
+  background-color: var(--third-color);
+}
+
+.card-footer > button {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+}

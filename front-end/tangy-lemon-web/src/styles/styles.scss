@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat.ttf");
+}
+
+body {
+  font-family: "Montserrat", var(--bs-font-sans-serif);
+  color: #696969;
+}
+
+:root {
+  --primary-color: #0ac6ff;
+  --second-color: #96e7ff;
+  --third-color: #ebfaff;
+  --gradient: linear-gradient(180deg, transparent 50%, #96e7ff 70%);
+}
+
+// div {
+//   border: 1px solid black;
+// }

@@ -1,0 +1,27 @@
+.introBox {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrowBox {
+  text-align: center;
+}
+
+.theme {
+  color: var(--primary-color);
+}
+
+.imgBox > img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-color: var(--primary-color);
+}
+
+.markIt {
+  background: var(--gradient);
+}

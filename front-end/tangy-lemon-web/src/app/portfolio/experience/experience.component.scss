@@ -1,0 +1,11 @@
+.box {
+  margin: 10rem 0 10rem 0;
+}
+
+.imgBox > img {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  background-color: #0ac6ff;
+}
