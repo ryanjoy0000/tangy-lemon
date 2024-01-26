@@ -3,9 +3,8 @@ import {
   faGolang,
   faAngular,
   faNodeJs,
-  faGithub,
-  faNpm,
 } from '@fortawesome/free-brands-svg-icons';
+import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-tools',
@@ -16,4 +15,5 @@ export class ToolsComponent {
   faGolang = faGolang;
   faAngular = faAngular;
   faNodeJs = faNodeJs;
+  faTools = faScrewdriverWrench;
 }

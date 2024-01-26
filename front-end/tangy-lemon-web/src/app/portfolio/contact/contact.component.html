@@ -1,5 +1,8 @@
 <div class="row box">
-  <h2>Get in touch</h2>
+  <h2>
+    <fa-icon class="theme" [icon]="faMob"></fa-icon>
+    Get in <span class="markIt">touch</span>
+  </h2>
   <div class="col-12">
     <p>
       Interested in a discussion with me? Do not hesitate to message me on these
@@ -7,10 +10,20 @@
     </p>
   </div>
 
-  <div class="col-sm-12 col-md-1 centered">
-    <fa-icon class="theme" [icon]="faLinkedin" size="3x"></fa-icon>
+  <div class="col-sm-12 col-md-1 centered mb-2">
+    <fa-icon
+      class="theme"
+      [icon]="faLinkedin"
+      size="3x"
+      (click)="iconClicked($event, 'faLinkedin')"
+    ></fa-icon>
   </div>
-  <div class="col-sm-12 col-md-1 centered">
-    <fa-icon class="theme" [icon]="faGithub" size="3x"></fa-icon>
+  <div class="col-sm-12 col-md-1 centered mb-2">
+    <fa-icon
+      class="theme"
+      [icon]="faGithub"
+      size="3x"
+      (click)="iconClicked($event, 'faGithub')"
+    ></fa-icon>
   </div>
 </div>

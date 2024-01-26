@@ -3,7 +3,11 @@
 }
 .theme {
   color: var(--primary-color);
+  cursor: pointer;
 }
-.cenetered {
+.centered {
   text-align: center;
+}
+.markIt {
+  background: var(--gradient);
 }

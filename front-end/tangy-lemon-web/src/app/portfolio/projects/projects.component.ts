@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-projects',
@@ -8,6 +9,8 @@ import { DOCUMENT } from '@angular/common';
 })
 export class ProjectsComponent {
   constructor(@Inject(DOCUMENT) private doc: Document) {}
+
+  faSuitcase = faSuitcase;
 
   items = [
     {
