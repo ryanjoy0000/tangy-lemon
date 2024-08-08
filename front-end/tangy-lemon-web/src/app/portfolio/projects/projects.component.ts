@@ -8,11 +8,21 @@ import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent {
-  constructor(@Inject(DOCUMENT) private doc: Document) {}
+  constructor(@Inject(DOCUMENT) private doc: Document) { }
 
   faSuitcase = faSuitcase;
 
   items = [
+    {
+      title: `Network Monitoring Tool with Go`,
+      body: `It is a lightweight application developed in Go
+      for real-time monitoring of network performance and health.
+      It provides essential metrics such as latency, bandwidth, and packet loss
+      to ensure optimal network functionality. The tool is designed for easy integration
+      and usability, making it ideal for network administrators and developers.`,
+      btn1_text: `Github`,
+      btn1_link: `https://github.com/ryanjoy0000/go-network-monitoring-tool`,
+    },
     {
       title: `Youtube Notifier (Telegram Bot) -
       A real time data processing pipeline,`,
