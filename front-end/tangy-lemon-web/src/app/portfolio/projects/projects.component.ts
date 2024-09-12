@@ -14,6 +14,15 @@ export class ProjectsComponent {
 
   items = [
     {
+      title: `Automation Script - AWS EC2 Instance `,
+      body: `Bash script to automate the creation and configuration
+      of an AWS EC2 instance. Configures the security group to allow SSH
+      and HTTP access. Creates a new key pair and security group.
+      Installs Docker, Python 3, and Nginx on the instance.`,
+      btn1_text: `Github`,
+      btn1_link: `https://github.com/ryanjoy0000/script-aws-server`,
+    },
+    {
       title: `Network Monitoring Tool with Go`,
       body: `It is a lightweight application developed in Go
       for real-time monitoring of network performance and health.
